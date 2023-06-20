@@ -9,7 +9,7 @@ const BlogSlide = () => {
           You may also like this
         </h2>
         <div className="">
-          {/* <Slider/> */}
+          <Slider/>
         </div>
       </div>
     </div>
