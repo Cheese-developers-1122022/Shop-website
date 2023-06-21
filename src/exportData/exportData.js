@@ -272,6 +272,144 @@ export const shopCardData = {
       onsale: "Sale",
       brand: "New",
     },
+    {
+      id: 17,
+      name: "Softstyle Tank Top",
+      image:
+        "https://teespace.harutheme.com/wp-content/uploads/2022/10/8-1.jpg",
+      backdrop_image:
+        "https://teespace.harutheme.com/wp-content/uploads/2022/10/8-330x440.jpg",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+      category: " Tanktop",
+      tags: " designer, t-shirt",
+      priceUp: 26.0,
+      priceTo: 29.0,
+      discountPrice: 0,
+      onsale: "Sale",
+      brand: "Hot",
+    },
+    {
+      id: 18,
+      name: "Specter Tank Top",
+      image:
+        "	https://teespace.harutheme.com/wp-content/uploads/2022/10/6-1.jpg",
+      backdrop_image:
+        "	https://teespace.harutheme.com/wp-content/uploads/2022/10/6-330x440.jpg",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+      category: " Tanktop",
+      tags: "  designer, t-shirt",
+      priceUp: 36.0,
+      priceTo: null,
+      discountPrice: 0,
+      onsale: "Sale",
+      brand: "New",
+    },
+    {
+      id: 19,
+      name: "Midweight Cotton Tee",
+      image:
+        "	https://teespace.harutheme.com/wp-content/uploads/2022/10/10-5.jpg",
+      backdrop_image:
+        "		https://teespace.harutheme.com/wp-content/uploads/2022/10/10-4.jpg",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+      category: "  Sweater, T-Shirt",
+      tags: "  designer, t-shirt",
+      priceUp: 26.0,
+      priceTo: 29.0,
+
+      discountPrice: 0,
+      onsale: "Sale",
+      brand: "New",
+    },
+    {
+      id: 20,
+      name: "Ultra Cotton Tank Top",
+      image:
+        "		https://teespace.harutheme.com/wp-content/uploads/2022/10/7-1.jpg",
+      backdrop_image:
+        "	https://teespace.harutheme.com/wp-content/uploads/2022/10/7.jpg",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+      category: "  Tanktop",
+      tags: "    designer, t-shirt",
+      priceUp: 26.0,
+      priceTo: 29.0,
+
+      discountPrice: 0,
+      onsale: "Sale",
+      brand: "New",
+    },
+    {
+      id: 21,
+      name: "The Boyfriend Tee",
+      image:
+        "https://teespace.harutheme.com/wp-content/uploads/2022/10/11-330x440.jpg",
+      backdrop_image:
+        "	https://teespace.harutheme.com/wp-content/uploads/2022/10/11-1.jpg",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+      category: "   Long Sleeves, T-Shirt",
+      tags: " t-shirt, woman",
+      priceUp: 28.0,
+      priceTo: null,
+      discountPrice: 0,
+      onsale: "Sale",
+      brand: "New",
+    },
+    {
+      id: 22,
+      name: "Youth Short Sleeve Tee",
+      image:
+        "https://teespace.harutheme.com/wp-content/uploads/2022/10/14-1.jpg",
+      backdrop_image:
+        "https://teespace.harutheme.com/wp-content/uploads/2022/10/14-330x440.jpg",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+      category: "   Kids, T-Shirt",
+      tags: " kids, t-shirt",
+      priceUp: 26.0,
+      priceTo: 29.0,
+      discountPrice: 0,
+      onsale: "Sale",
+      brand: "Hot",
+    },
+    {
+      id: 23,
+      name: "Zone Performance T-shirt",
+      image:
+        "	https://teespace.harutheme.com/wp-content/uploads/2022/10/12-1.jpg",
+      backdrop_image:
+        "https://teespace.harutheme.com/wp-content/uploads/2022/10/12-330x440.jpg",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+      category: " Long Sleeves, Sweater",
+      tags: "  t-shirt, woman",
+      priceUp: 32.0,
+      priceTo: 36.0,
+      discountPrice: 0,
+      onsale: "Sale",
+      brand: "Hot",
+    },
+    {
+      id: 24,
+      name: "Toddler T-shirt",
+      image:
+        "https://teespace.harutheme.com/wp-content/uploads/2022/10/17-1.jpg",
+      backdrop_image:
+        "	https://teespace.harutheme.com/wp-content/uploads/2022/10/17-2-330x440.jpg",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+      category: " Kids, T-Shirt",
+      tags: " kids, t-shirt",
+      priceUp: 26.0,
+      priceTo: null,
+      discountPrice: 0,
+      onsale: "Sale",
+      brand: "Hot",
+    },
   ],
   customItems: [
     {
