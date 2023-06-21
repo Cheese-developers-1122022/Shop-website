@@ -4,7 +4,7 @@ import ShoppingList from "./ShoppingList";
 
 const MainShop = () => {
   return (
-    <div>
+    <div className=" overflow-x-hidden">
       <NavSlide />
       <ShoppingList />
     </div>

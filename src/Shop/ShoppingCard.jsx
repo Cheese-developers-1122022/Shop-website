@@ -16,26 +16,47 @@ import "./shoppingcard.css";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsPinterest, BsTwitter } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";
-const ShoppingCard = ({
-  id,
-  name,
-  image,
-  backdrop_image,
-  description,
-  category,
-  tags,
-  priceUp,
-  priceTo,
-  discountPrice,
-  onsale,
-  brand,
-}) => {
+const ShoppingCard = (props) => {
+  const {
+    id,
+    name,
+    image,
+    backdrop_image,
+    description,
+    category,
+    tags,
+    priceUp,
+    priceTo,
+    discountPrice,
+    onsale,
+    brand,
+  } = props;
+  const [hide, setHide] = useState(false);
+
+  const handleAddToCart = () => {
+    dispatch(
+      addProduct({
+        id,
+        name,
+        image,
+        backdrop_image,
+        description,
+        category,
+        tags,
+        priceUp,
+        priceTo,
+        discountPrice,
+        onsale,
+        brand,
+      })
+    );
+  };
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const handleOpen = () => setOpen(!open);
   const [opened, { open, close }] = useDisclosure(false);
   return (
-    <div className="card border-2 gap-y-1 hover:shadow-2xl shadow-lg  rounded-md flex flex-col items-center">
+    <div className="card overflow-hidden lg:w-auto  w-[170px] sm:w-[230px]  border-2 gap-y-1 hover:shadow-2xl shadow-lg  rounded-md flex flex-col items-center">
       <div className="img-hover relative">
         <span className="text-[13px] absolute top-[10px] rounded-[3px] left-[10px] z-[100] font-[600px] border-[3xp] bg-[#61CE70] px-[6px] text-white">
           {onsale}
@@ -43,20 +64,17 @@ const ShoppingCard = ({
         <span className="text-[13px] absolute top-[35px] rounded-[3px] left-[10px] z-[100] font-[600px] border-[3xp] bg-[#b479d9] px-[6px] text-white">
           {brand}
         </span>
-        <div
-          onClick={() => navigate(`/detail/${id}`, { state: props })}
-          className="first-img"
-        >
+        <div className="first-img">
           <img
             id="main-img"
-            className="max-h-[350px] rounded first-img-hover"
+            className="lg:max-h-[350px] lg:w-auto w-[170px] sm:w-[230px] rounded first-img-hover"
             src={image}
             alt=""
           />
           <div className="second-img overflow-hidden">
             <img
               id="hover-img"
-              className="max-h-[350px] rounded second-img-hover"
+              className="lg:max-h-[350px] lg:w-auto w-[170px] sm:w-[230px] rounded second-img-hover"
               src={backdrop_image}
               alt=""
             />
@@ -80,7 +98,7 @@ const ShoppingCard = ({
               withArrow
               arrowPosition="center"
             >
-              <div className="flex border-[1px] text-black hover:text-white border-[#dadada] bg-white hover:bg-[#61CE70] hover:border-0 rounded-full justify-center items-center w-[30px] h-[30px]">
+              <div className="md:flex hidden  border-[1px] text-black hover:text-white border-[#dadada] bg-white hover:bg-[#61CE70] hover:border-0 rounded-full justify-center items-center w-[30px] h-[30px]">
                 <BsArrowLeftRight />
               </div>
             </Tooltip>
@@ -91,24 +109,7 @@ const ShoppingCard = ({
               arrowPosition="center"
             >
               <div
-                onClick={() =>
-                  dispatch(
-                    addProduct({
-                      id,
-                      name,
-                      image,
-                      backdrop_image,
-                      description,
-                      category,
-                      tags,
-                      priceUp,
-                      priceTo,
-                      discountPrice,
-                      onsale,
-                      brand,
-                    })
-                  )
-                }
+                onClick={() => dispatch(addProduct(props))}
                 className="flex border-[1px] text-black hover:text-white border-[#dadada] bg-white hover:bg-[#61CE70] hover:border-0 rounded-full justify-center items-center w-[30px] h-[30px]"
               >
                 <BiShoppingBag />
@@ -130,24 +131,37 @@ const ShoppingCard = ({
           </div>
         </div>
       </div>
-      <h2 className=" text-[16px] font-semibold">{name}</h2>
+      <h2 className=" text-[16px]  font-semibold truncate">{name}</h2>
       <h2 className=" text-[16px]">${priceUp}</h2>
       <div className="p-2 flex justify-around items-center gap-2">
         <div className="w-[18px] h-[18px] rounded-full bg-red-600"></div>
         <div className="w-[18px] h-[18px] rounded-full bg-green-600"></div>
         <div className="w-[18px] h-[18px] rounded-full bg-blue-600"></div>
-        <div className="w-[18px] h-[18px] rounded-full bg-black"></div>
-        <div className="w-[18px] h-[18px] rounded-full bg-yellow-600"></div>
+        {!hide && (
+          <h2 onClick={() => setHide(true)} className="">
+            2+
+          </h2>
+        )}
+        {hide && (
+          <div onClick={() => setHide(false)} className="flex gap-2">
+            <div className="w-[18px] h-[18px] rounded-full bg-black"></div>
+            <div className="w-[18px] h-[18px] rounded-full bg-yellow-600"></div>
+          </div>
+        )}
       </div>
       <Modal size="80%" opened={opened} onClose={close}>
-        <div className="flex gap-x-5 ">
-          <div className="">
-            <img src={image} className="h-[500px] object-cover" alt="" />
+        <div className="flex flex-wrap gap-x-5 ">
+          <div className="mx-auto">
+            <img
+              src={image}
+              className="lg:h-[500px] md:h-[400px] h-[330px] object-fill"
+              alt=""
+            />
           </div>
           <div className=" w-[500px]">
             <div className=" flex px-3  gap-y-2 flex-col">
-              <h2 className=" text-2xl font-semibold">{name}</h2>
-              <p className=" text-2xl font-semibold "> ${priceUp}</p>
+              <h2 className=" text-xl md:text-2xl font-semibold">{name}</h2>
+              <p className=" text-xl md:text-2xl font-semibold "> ${priceUp}</p>
               <p className=" text-sm leading-5 text-slate-500 font-light">
                 {description}
               </p>
@@ -163,7 +177,7 @@ const ShoppingCard = ({
                     <BiMinus className="text-lg  text-slate-500  hover:text-slate-800 " />
                   </div>
                 </div>
-                <button className="px-5 py-1 w-full rounded-md font-semibold text-white bg-[#2EBB77]">
+                <button className="md:px-5 px-1 py-1 w-full rounded-md font-semibold text-white bg-[#2EBB77]">
                   Add to Cart
                 </button>
               </div>
