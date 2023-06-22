@@ -21,7 +21,7 @@ const InvoiceCard = (props) => {
             <RxCross1 />
           </div>
         </div>
-        <h2 className="mx-2 md:text-lg text-[13px] ps-2 truncate">
+        <h2 className="font-serif text-black/70 md:text-[20px] text-[13px] ps-2 truncate">
           ${priceTo}
         </h2>
       </div>

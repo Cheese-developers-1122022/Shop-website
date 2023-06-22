@@ -1,12 +1,12 @@
 .first-img:hover .first-img-hover {
   display: none;
-  transition: 0.3s all ease-in-out;
+  transition: transform 0.5s;
 
   opacity: 1;
 }
 .second-img-hover {
   display: none;
-  transition: 0.3s all ease-in-out;
+  transition: transform 0.5s;
   opacity: 0;
 }
 .first-img:hover .second-img-hover {
@@ -29,6 +29,12 @@
 }
 
 .card:hover .icon-hover {
+  display: block;
+  transform: translateY(-20px);
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+.card2:hover .icon-hover {
   display: block;
   transform: translateY(-20px);
   opacity: 1;

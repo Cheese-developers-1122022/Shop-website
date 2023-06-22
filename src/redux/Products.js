@@ -9,8 +9,9 @@ export const productSlice = createSlice({
   initialState,
   reducers: {
     addProduct: (state, action) => {
-      console.log(state.products);
+      console.log(action.payload);
       state.products.push(action.payload);
+
     },
     removeProduct: (state, { payload }) => {
       state.products = state.products.filter((item) => item?.id !== payload);

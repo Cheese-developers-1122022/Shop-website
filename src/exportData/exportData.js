@@ -8,7 +8,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/2-1.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Hoodie",
       tags: "designer,t-shirt",
       priceUp: 26,
@@ -25,7 +25,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/4-13.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Hoodie",
       tags: "designer,t-shirt",
       priceUp: 26,
@@ -42,7 +42,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/1-5.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Hoodie",
       tags: "designer,t-shirt",
       priceUp: 26,
@@ -59,7 +59,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/17-1.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Kids,T-shirt",
       tags: "kids,t-shirt",
       priceUp: 31,
@@ -76,7 +76,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/1-9.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Hoodie",
       tags: "designer,t-shirt",
       priceUp: 26,
@@ -93,7 +93,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/10-1.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Sweater",
       tags: "t-shirt,woman",
       priceUp: 28,
@@ -110,7 +110,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/16-3.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Hoodie,Kids",
       tags: "kids,t-shirt",
       priceUp: 26,
@@ -127,7 +127,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/1-1.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Hoodie",
       tags: null,
       priceUp: 36,
@@ -144,7 +144,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/10-5.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Sweater,T-shirt",
       tags: "designer,t-shirt",
       priceUp: 26,
@@ -161,7 +161,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/3-1.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "T-shirt",
       tags: "designer,t-shirt",
       priceUp: 39,
@@ -178,7 +178,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/5-1.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Hoodie",
       tags: "designer,t-shirt",
       priceUp: 26,
@@ -195,7 +195,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/3-5.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Hoodie",
       tags: "designer,t-shirt",
       priceUp: 26,
@@ -212,7 +212,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/2-5.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Hoodie",
       tags: "designer,t-shirt",
       priceUp: 26,
@@ -229,7 +229,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/8-1.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Tanktop",
       tags: "designer,t-shirt",
       priceUp: 26,
@@ -246,7 +246,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/17-1.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Kids,T-shirt",
       tags: "kids,t-shirt",
       priceUp: 26,
@@ -263,7 +263,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/14-1.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Kids,T-shirt",
       tags: "kids,t-shirt",
       priceUp: 26,
@@ -280,7 +280,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/wp-content/uploads/2022/10/8-330x440.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: " Tanktop",
       tags: " designer, t-shirt",
       priceUp: 26.0,
@@ -297,7 +297,7 @@ export const shopCardData = {
       backdrop_image:
         "	https://teespace.harutheme.com/wp-content/uploads/2022/10/6-330x440.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: " Tanktop",
       tags: "  designer, t-shirt",
       priceUp: 36.0,
@@ -314,7 +314,7 @@ export const shopCardData = {
       backdrop_image:
         "		https://teespace.harutheme.com/wp-content/uploads/2022/10/10-4.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "  Sweater, T-Shirt",
       tags: "  designer, t-shirt",
       priceUp: 26.0,
@@ -332,7 +332,7 @@ export const shopCardData = {
       backdrop_image:
         "	https://teespace.harutheme.com/wp-content/uploads/2022/10/7.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "  Tanktop",
       tags: "    designer, t-shirt",
       priceUp: 26.0,
@@ -350,7 +350,7 @@ export const shopCardData = {
       backdrop_image:
         "	https://teespace.harutheme.com/wp-content/uploads/2022/10/11-1.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "   Long Sleeves, T-Shirt",
       tags: " t-shirt, woman",
       priceUp: 28.0,
@@ -367,7 +367,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/wp-content/uploads/2022/10/14-330x440.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "   Kids, T-Shirt",
       tags: " kids, t-shirt",
       priceUp: 26.0,
@@ -384,7 +384,7 @@ export const shopCardData = {
       backdrop_image:
         "https://teespace.harutheme.com/wp-content/uploads/2022/10/12-330x440.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: " Long Sleeves, Sweater",
       tags: "  t-shirt, woman",
       priceUp: 32.0,
@@ -401,7 +401,7 @@ export const shopCardData = {
       backdrop_image:
         "	https://teespace.harutheme.com/wp-content/uploads/2022/10/17-2-330x440.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: " Kids, T-Shirt",
       tags: " kids, t-shirt",
       priceUp: 26.0,
@@ -418,7 +418,7 @@ export const shopCardData = {
       image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/8-330x440.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Product Designer",
       tags: "designer",
       priceUp: 19.95,
@@ -430,7 +430,7 @@ export const shopCardData = {
       image:
         "https://teespace.harutheme.com/studio/wp-content/uploads/sites/3/2022/10/10-2-330x440.jpg",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio quam, aliquam amet exercitationem quis! Officiis cumque pariatur quidem rerum",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique malesuada elit, ut facilisis tellus elementum id. Nullam id consectetur diam. Pellentesque nec tristique sapien etiam non augue lacus.",
       category: "Product Designer",
       tags: "designer",
       priceUp: 14.95,

@@ -33,8 +33,7 @@ const NavSlide = () => {
           <span>.</span>
         </Marquee>
       </div>
-      <div className="bg-slate-500 h-[80px]"></div>
-      <div className="h-[100px] w-[100vw] bg-[#F5F5F5]  flex flex-col justify-center items-center text-xl font-medium">
+      <div className="h-[150px] w-[100vw] bg-[#F5F5F5]  flex flex-col justify-center items-center text-xl font-medium">
         <h2 className="">Shop</h2>
         <div className="">
           <Breadcrumbs className=" decoration-inherit" separator="___" mt="xs">

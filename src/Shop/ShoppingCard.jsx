@@ -67,14 +67,14 @@ const ShoppingCard = (props) => {
         <div className="first-img">
           <img
             id="main-img"
-            className="lg:max-h-[350px] lg:w-auto w-[170px] sm:w-[230px] rounded first-img-hover"
+            className="lg:max-h-[320px] lg:w-auto w-[170px] sm:w-[230px] rounded first-img-hover"
             src={image}
             alt=""
           />
           <div className="second-img overflow-hidden">
             <img
               id="hover-img"
-              className="lg:max-h-[350px] lg:w-auto w-[170px] sm:w-[230px] rounded second-img-hover"
+              className="lg:max-h-[320px] lg:w-auto w-[170px] sm:w-[230px] rounded second-img-hover"
               src={backdrop_image}
               alt=""
             />
@@ -132,11 +132,11 @@ const ShoppingCard = (props) => {
         </div>
       </div>
       <h2 className=" text-[16px]  font-semibold truncate">{name}</h2>
-      <h2 className=" text-[16px]">${priceUp}</h2>
-      <div className="p-2 flex justify-around items-center gap-2">
-        <div className="w-[18px] h-[18px] rounded-full bg-red-600"></div>
-        <div className="w-[18px] h-[18px] rounded-full bg-green-600"></div>
-        <div className="w-[18px] h-[18px] rounded-full bg-blue-600"></div>
+      <h2 className=" text-[16px] font-serif">${priceUp}</h2>
+      <div className="pb-2 flex justify-around items-center gap-2">
+        <div className="w-[15px] h-[15px] rounded-full bg-red-600"></div>
+        <div className="w-[15px] h-[15px] rounded-full bg-green-600"></div>
+        <div className="w-[15px] h-[15px] rounded-full bg-blue-600"></div>
         {!hide && (
           <h2 onClick={() => setHide(true)} className="">
             2+
