@@ -5,6 +5,7 @@ import "./navbar.css";
 import { Menu } from "@mantine/core";
 import { RiArrowDownSLine } from "react-icons/ri";
 import { RiArrowUpSLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const BurgerNav = () => {
   const [opening, { toggle }] = useDisclosure(false);
@@ -43,11 +44,16 @@ const BurgerNav = () => {
         <div className={`${opening ? "display_block" : "display_none"}`}>
           <Menu.Dropdown className=" w-[100%]">
             <div className=" w-[380px] sm:w-[640px] md:w-[750px]">
-              <p className=" cursor-pointer py-[13px] px-[15px] hover:text-white text-[15px] font-[600] hover:bg-[#2EBB77] ">
-                Home
-              </p>
+              <Link to="/">
+                <p className=" cursor-pointer py-[13px] px-[15px] hover:text-white text-[15px] font-[600] hover:bg-[#2EBB77] ">
+                  Home
+                </p>
+              </Link>
+
               <div className="  flex justify-between items-center gap-2 cursor-pointer py-[10px] px-[15px] hover:text-white text-[15px] font-[600] hover:bg-[#2EBB77] ">
-                <p className=" ">Shop</p>
+                <Link to="/shop">
+                  <p className=" ">Shop</p>
+                </Link>
                 <div
                   onClick={toggleCollapse}
                   className=" mr-0 sm:mr-5 lg:mr-5 p-2 bg_arrow_down "
@@ -86,7 +92,9 @@ const BurgerNav = () => {
                 </ul>
               </div>
               <div className="  flex justify-between items-center gap-2 cursor-pointer py-[10px] px-[15px] hover:text-white text-[15px] font-[600] hover:bg-[#2EBB77] ">
-                <p className=" ">Blog</p>
+                <Link to="/blog">
+                  <p className=" ">Blog</p>
+                </Link>
                 <div
                   onClick={toggleCollapseBlog}
                   className=" mr-0 sm:mr-5 lg:mr-5 p-2 bg_arrow_down "

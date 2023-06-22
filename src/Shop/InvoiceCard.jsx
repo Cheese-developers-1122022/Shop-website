@@ -3,7 +3,7 @@ import { RxCross1 } from "react-icons/rx";
 import { useDispatch } from "react-redux";
 import { removeProduct } from "../redux/Products";
 const InvoiceCard = (props) => {
-  const { priceTo, id, name, image } = props;
+  const { priceUp, id, name, image } = props;
   const dispatch = useDispatch();
   return (
     <div className="flex lg:mx-2 mx-0">
@@ -22,7 +22,7 @@ const InvoiceCard = (props) => {
           </div>
         </div>
         <h2 className="font-serif text-black/70 md:text-[20px] text-[13px] ps-2 truncate">
-          ${priceTo}
+          ${priceUp}
         </h2>
       </div>
     </div>

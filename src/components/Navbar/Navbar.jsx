@@ -15,7 +15,7 @@ const Navbar = () => {
   const total = products?.reduce((pv, cv) => pv + cv?.priceUp, 0);
 
   return (
-    <div className=" py-2 flex border  justify-between items-center">
+    <div className=" py-2  sticky top-0 z-[2000] bg-white flex border  justify-between items-center">
       <Drawer
         title="Shopping Cart"
         position="right"

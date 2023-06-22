@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./shoppingcard.css";
 import { useDispatch } from "react-redux";
 import { Dialog, DialogBody } from "@material-tailwind/react";
 import { useDisclosure } from "@mantine/hooks";

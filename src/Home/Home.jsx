@@ -11,7 +11,7 @@ import BackToTopButton from "./BacktoTop/BackToTopButton.jsx";
 
 const Home = () => {
   return (
-    <div id="home" className="home pt-52">
+    <div id="home" className="home pt-20">
       <div className="first-section">
         <HeroSection />
       </div>

@@ -12,7 +12,6 @@ import { Dialog, DialogBody } from "@material-tailwind/react";
 import { BsPlusLg, BsFacebook } from "react-icons/bs";
 import { BiMinus } from "react-icons/bi";
 import { useDisclosure } from "@mantine/hooks";
-import "./shoppingcard.css";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsPinterest, BsTwitter } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -56,7 +55,7 @@ const ShoppingCard = (props) => {
   const handleOpen = () => setOpen(!open);
   const [opened, { open, close }] = useDisclosure(false);
   return (
-    <div className="card overflow-hidden lg:w-auto  w-[170px] sm:w-[230px]  border-2 gap-y-1 hover:shadow-2xl shadow-lg  rounded-md flex flex-col items-center">
+    <div className="card overflow-hidden   w-[170px] sm:w-[230px]  border-2 gap-y-1 hover:shadow-2xl shadow-lg  rounded-md flex flex-col items-center">
       <div className="img-hover relative">
         <span className="text-[13px] absolute top-[10px] rounded-[3px] left-[10px] z-[100] font-[600px] border-[3xp] bg-[#61CE70] px-[6px] text-white">
           {onsale}
@@ -67,16 +66,16 @@ const ShoppingCard = (props) => {
         <div className="first-img">
           <img
             id="main-img"
-            className="lg:max-h-[320px] lg:w-auto w-[170px] sm:w-[230px] rounded first-img-hover"
+            className="lg:max-h-[320px]  w-[170px] sm:w-[230px] rounded first-img-hover"
             src={image}
-            alt=""
+            alt={name}
           />
           <div className="second-img overflow-hidden">
             <img
               id="hover-img"
-              className="lg:max-h-[320px] lg:w-auto w-[170px] sm:w-[230px] rounded second-img-hover"
+              className="lg:max-h-[320px]  w-[170px] sm:w-[230px] rounded second-img-hover"
               src={backdrop_image}
-              alt=""
+              alt={name}
             />
           </div>
         </div>
@@ -155,7 +154,7 @@ const ShoppingCard = (props) => {
             <img
               src={image}
               className="lg:h-[500px] md:h-[400px] h-[330px] object-fill"
-              alt=""
+              alt={name}
             />
           </div>
           <div className=" w-[500px]">

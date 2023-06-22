@@ -13,7 +13,6 @@ const ShoppingList = () => {
   const data1 = shopCardData?.shopItems.slice(0, 8);
   const data2 = shopCardData?.shopItems.slice(8, 16);
   const data3 = shopCardData?.shopItems.slice(16, 24);
-  console.log(data1, data2, data3);
   const [count, setCount] = useState(1);
   const [row, setRow] = useState(false);
   const left = () => {
@@ -28,10 +27,7 @@ const ShoppingList = () => {
   };
   const userData = [data1, data2, data3][count - 1];
 
-  console.log(count);
-
   const { products } = useSelector((state) => state?.products);
-  console.log(products);
   return (
     <div>
       ;
@@ -55,7 +51,7 @@ const ShoppingList = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap min-h-screen gap-y-3 md:gap-3 lg:gap-10 justify-evenly items-center">
+      <div className="flex flex-wrap min-h-screen gap-y-3  md:gap-3 lg:gap-14 justify-evenly items-center">
         {userData?.map((item) =>
           row ? (
             <ShoppingCard key={item?.id} {...item} />

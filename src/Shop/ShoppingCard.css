@@ -1,8 +1,11 @@
 .first-img:hover .first-img-hover {
   display: none;
   transition: transform 0.5s;
-
   opacity: 1;
+}
+.first-img-hover {
+  display: block;
+  z-index: 100;
 }
 .second-img-hover {
   display: none;
