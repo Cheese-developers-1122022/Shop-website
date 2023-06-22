@@ -78,7 +78,7 @@ const ShoppingCard = (props) => {
           </div>
         </div>
         <div className="icon-hover  z-[100]">
-          <div className="p-1 absolute bottom-5 sm:left-[17%] md:left-[10%] left-[22%] flex justify-center items-start gap-x-3">
+          <div className="p-1 absolute bottom-5 sm:left-[10%] md:left-[10%] left-[22%] flex justify-center items-start gap-x-3">
             <Tooltip
               label="Wish list"
               color="dark"
