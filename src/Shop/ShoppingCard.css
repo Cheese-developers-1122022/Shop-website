@@ -1,7 +1,7 @@
 .first-img:hover .first-img-hover {
   display: none;
   transition: transform 0.5s;
-  opacity: 1;
+  opacity: 0;
 }
 .first-img-hover {
   display: block;
@@ -10,7 +10,7 @@
 .second-img-hover {
   display: none;
   transition: transform 0.5s;
-  opacity: 0;
+  opacity: 0overflow-hidden;
 }
 .first-img:hover .second-img-hover {
   display: block;

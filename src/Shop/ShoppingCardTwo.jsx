@@ -90,7 +90,7 @@ const ShoppingCardTwo = (props) => {
           </div>
         </div>
       </Modal>
-      <div className="img-hover mx-3 relative">
+      <div className=" mx-3 relative">
         <span className="text-[13px] items-center absolute top-[10px] rounded-[3px] left-[10px] z-[100] font-[600px] border-[3xp] bg-[#61CE70] px-[6px] text-white">
           {onsale}
         </span>
@@ -114,7 +114,7 @@ const ShoppingCardTwo = (props) => {
           </div>
         </div>
         <div className="icon-hover  z-[100]">
-          <div className="p-1 absolute bottom-5 sm:left-[17%] left-[22%]  flex justify-center items-start gap-x-3">
+          <div className="p-1 absolute bottom-5 sm:left-[17%] md:left-[10%] left-[22%]  flex justify-center items-start gap-x-3">
             <Tooltip
               label="Wish list"
               color="dark"

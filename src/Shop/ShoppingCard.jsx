@@ -56,7 +56,7 @@ const ShoppingCard = (props) => {
   const [opened, { open, close }] = useDisclosure(false);
   return (
     <div className="card overflow-hidden   w-[170px] sm:w-[230px]  border-2 gap-y-1 hover:shadow-2xl shadow-lg  rounded-md flex flex-col items-center">
-      <div className="img-hover relative">
+      <div className=" relative">
         <span className="text-[13px] absolute top-[10px] rounded-[3px] left-[10px] z-[100] font-[600px] border-[3xp] bg-[#61CE70] px-[6px] text-white">
           {onsale}
         </span>
@@ -65,14 +65,12 @@ const ShoppingCard = (props) => {
         </span>
         <div className="first-img">
           <img
-            id="main-img"
             className="lg:max-h-[320px]  w-[170px] sm:w-[230px] rounded first-img-hover"
             src={image}
             alt={name}
           />
           <div className="second-img overflow-hidden">
             <img
-              id="hover-img"
               className="lg:max-h-[320px]  w-[170px] sm:w-[230px] rounded second-img-hover"
               src={backdrop_image}
               alt={name}
@@ -80,7 +78,7 @@ const ShoppingCard = (props) => {
           </div>
         </div>
         <div className="icon-hover  z-[100]">
-          <div className="p-1 absolute bottom-5 left-[17%]  flex justify-center items-start gap-x-3">
+          <div className="p-1 absolute bottom-5 sm:left-[17%] md:left-[10%] left-[22%] flex justify-center items-start gap-x-3">
             <Tooltip
               label="Wish list"
               color="dark"
