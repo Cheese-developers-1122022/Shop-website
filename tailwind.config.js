@@ -2,7 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
+
   theme: {
+    fontFamily: {
+      sans: "Roboto",
+      serif: "Lato",
+      body: "Montserrat",
+    },
     screens: {
       sm: "640px",
       md: "768px",
