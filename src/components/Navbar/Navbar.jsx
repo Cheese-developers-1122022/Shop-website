@@ -22,17 +22,17 @@ const Navbar = () => {
         size="50%"
         opened={opened}
         onClose={close}
-        className="py-2"
+        className="py-10"
       >
-        <div className=" flex min-h-[85vh]">
+        <div className=" flex  min-h-[85vh]">
           {products.length === 0 ? (
             <div className="min-h-[90vh] w-full flex justify-center items-center">
               <h2 className="text-lg font-semibold ">Empty cart</h2>
             </div>
           ) : (
-            <div className=" flex flex-col gap-3 w-full">
+            <div className=" flex mt-[10px] md:mt-[50px]  flex-col gap-3 w-full">
               {products?.map((item) => (
-                <InvoiceCard key={item.id} {...item} />
+                <InvoiceCard className="" key={item.id} {...item} />
               ))}
             </div>
           )}

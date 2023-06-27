@@ -43,7 +43,7 @@ const ShoppingCardTwo = (props) => {
               alt=""
             />
           </div>
-          <div className=" w-[500px]">
+          <div className=" w-[500px] mx-auto">
             <div className=" flex px-3  gap-y-2 flex-col">
               <h2 className=" text-xl md:text-2xl font-semibold">{name}</h2>
               <p className=" text-xl md:text-2xl font-semibold "> ${priceUp}</p>
@@ -114,7 +114,7 @@ const ShoppingCardTwo = (props) => {
           </div>
         </div>
         <div className="icon-hover  z-[100]">
-          <div className="p-1 absolute bottom-5 sm:left-[10%] md:left-[10%] left-[22%]  flex justify-center items-start gap-x-3">
+          <div className="p-1 absolute bottom-5 sm:left-[10%] md:left-[15%]  lg:left-[20%] left-[23%]  flex justify-center items-start gap-x-3">
             <Tooltip
               label="Wish list"
               color="dark"

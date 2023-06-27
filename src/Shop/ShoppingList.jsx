@@ -51,7 +51,7 @@ const ShoppingList = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap min-h-screen gap-y-3  md:gap-3 lg:gap-14 justify-evenly items-center">
+      <div className="flex flex-wrap lg:px-10 md:px-1 px-2 min-h-screen lg:gap-y-10  gap-y-5 md:gap-x-7 lg:gap-x-20 justify-evenly items-center">
         {userData?.map((item) =>
           row ? (
             <ShoppingCard key={item?.id} {...item} />
